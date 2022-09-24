@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body{
-    background-color: #CEB992;
-    font-family: 'Courier New', Courier, monospace;
-
+    background-color: #B9D8C2;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-
+    top: 0;
+    font-size: 40px;
     color:#1A181B;
     background-color: #64A6BD;
     border-color:#549BB6;
@@ -17,51 +17,59 @@ header {
     border-width: 2px;
     border-style: solid;
     padding: 25px 50px;
-    font-size: 40px;
     margin: 5px 5px 50px 5px;
+}
+
+footer {
+    display: flex;
+    /* flex-shrink: 0; */
+    justify-content: center;
+    bottom: 0;
 }
 
 #name{
     font-family: 'Press Start 2P', cursive;
 }
 
-
-
 .nav{
     padding-top: 10px;
-    /* padding-bottom: 10px; */
-    /* text-align: center; */
     font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
- 
-}
-
-footer {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
 }
 
 .logo-link {
     width: 25px;
     height: 25px;
+    margin: 5px 10px 5px 5px;
 }
 
 .vert-flexbox-container {
     display: flex;
     flex-direction: column;
-
 }
+
+.flexbox-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .stuff-box {
     color:#1A181B;
+    text-align: center;
     border-radius: 5px;
     border-width: 2px;
     border-style: solid;
-    /* padding: 25px 50px; */
-    text-align: center;
+    padding: 0px 10px;
+    margin: 5px 5px 10px 5px;
+}
 
-    margin: 5px 0px 10px 5px;
+.lefty {
+    text-align: left;
+}
+
+.filled {
+    flex-grow: 1;
 }
 
 .blue {
@@ -76,16 +84,25 @@ footer {
 	box-shadow: 1px 1px 2px #453E51;
 }
 
-.green {
-	border-color: #B5BF88;
-    background-color: #BDC696;
-	box-shadow: 1px 1px 2px #A4B06D;
+.gray {
+	border-color: #C2DFFF;
+    background-color: #DCEDFF;
+	box-shadow: 1px 1px 2px #ADD5FF;
 }
 
-#profile-pic {
-    border-radius: 5px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #595086;
-    background-color: #635973;
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
+    color: #F2A6BD;
 }

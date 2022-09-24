@@ -1,21 +1,8 @@
-.lefty-stuff-box {
-    color:#1A181B;
+.profile-pic {
     border-radius: 5px;
     border-width: 2px;
     border-style: solid;
-    padding: 5px 10px;
-    /* text-align: center; */
-
-    margin: 5px 0px 10px 5px;
-}
-
-.profile {
-    background-color: gray;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-
-}
-
-.lefty {
-    float:left;
+    border-color: #595086;
+    background-color: #635973;
+    margin: 10px 10px 10px 10px;
 }
