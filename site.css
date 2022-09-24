@@ -1,31 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body{
-    background-color: red;
+    background-color: #CEB992;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
 header {
-    color:black;
-    background-color: rgb(138, 184, 228);
-    border-color:rgb(116, 159, 200);
+    display: flex;
+    justify-content: space-between;
+
+    color:#1A181B;
+    background-color: #64A6BD;
+    border-color:#549BB6;
     border-radius: 5px;
     border-width: 2px;
     border-style: solid;
     padding: 25px 50px;
     font-size: 40px;
-    font-family: 'Press Start 2P', cursive;
-    /* margin: 5pt, 5pt, 5pt, 5pt; */
+    margin: 5px 5px 50px 5px;
 }
 
+#name{
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+
 .nav{
-    float:right;
     padding-top: 10px;
     /* padding-bottom: 10px; */
     /* text-align: center; */
     font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+ 
+}
 
+footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .logo-link {
@@ -33,29 +48,44 @@ header {
     height: 25px;
 }
 
-.flexbox-container {
+.vert-flexbox-container {
     display: flex;
     flex-direction: column;
 
 }
 .stuff-box {
-    color:black;
-    background-color: rgb(118, 214, 176);
-    border-color:rgb(97, 184, 149);
+    color:#1A181B;
     border-radius: 5px;
     border-width: 2px;
     border-style: solid;
     /* padding: 25px 50px; */
     text-align: center;
 
-    /* font-size: 40px;
-    font-family: 'Press Start 2P', cursive; */
-    
-    margin: 25pt, 25pt, 25pt, 25pt;
+    margin: 5px 0px 10px 5px;
 }
 
 .blue {
-	border-color: rgb(0,0,255);
-	background:   rgb(60,60,180);
-	box-shadow: 1px 1px 2px rgba(0,0,200,0.4);
+    background-color: #64A6BD;
+    border-color:#549BB6;
+    box-shadow: #43859D;
+}
+
+.purple {
+	border-color: #595086;
+    background-color: #635973;
+	box-shadow: 1px 1px 2px #453E51;
+}
+
+.green {
+	border-color: #B5BF88;
+    background-color: #BDC696;
+	box-shadow: 1px 1px 2px #A4B06D;
+}
+
+#profile-pic {
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #595086;
+    background-color: #635973;
 }

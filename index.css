@@ -1,4 +1,13 @@
+.lefty-stuff-box {
+    color:#1A181B;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px 10px;
+    /* text-align: center; */
 
+    margin: 5px 0px 10px 5px;
+}
 
 .profile {
     background-color: gray;

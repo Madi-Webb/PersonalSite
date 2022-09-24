@@ -1,0 +1,25 @@
+.card {
+    display: flex;
+    align-items: stretch;
+    margin: 25px 25px 25px 25px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    color:#1A181B;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+}
+
+.photo {
+    margin: 10px 10px 5px 5px;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+}
